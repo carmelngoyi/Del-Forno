@@ -7,6 +7,7 @@
 body{
   width: 100%;
   background-color: white;
+  font-family: "Oswald", sans-serif;
 }
 
 .navbar-div{
@@ -21,11 +22,201 @@ body{
   margin-top: -65px;
   border: 1px solid blue;
 }
-git
+
 .body-div{
   width: 100%;
-  height: 1000px;
+  height: 1600px;
   border: 1px solid yellow;
+}
+
+.body1-h{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  /* border: 1px solid black; */
+  font-family: "Oswald", sans-serif;
+  color: #616161;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 192px;
+  margin-top: 80px;
+}
+
+.pizza{
+  width: 50px;
+  height:30px ;
+  /* border: 1px solid yellow; */
+  margin-left: 5px;
+}
+.vl {
+  border-left: 3px solid #616161;
+  height: 23px;
+  margin-top: 5px;
+}
+
+.story{
+  margin-top: 10px;
+}
+
+h2{
+  color: #616161;
+  padding-left: 192px;
+}
+span{
+  color: #f94545;
+}
+
+.dotted-line{
+  color: #f94545;
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin-left:192px ;
+}
+
+.story-p{
+  width: 545px;
+  height: 300px;
+  /* border: 1px solid black; */
+  font-size: 12px;
+  color: #616161;
+  margin-left:185px ;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-family: Roboto , serif;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+.button-div{
+ border: 1px solid #ffffff;
+ margin-top: 20px;
+
+}
+button{
+  width: 135px;
+  height: 45px;
+  background-color: #f94545;
+  color: #ffffff;
+  border: 1px red;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.shakes{
+  margin-left: 1120px;
+  margin-top: -460px;
+  width: 340px;
+  
+}
+
+.savoury{
+  width: 530px;
+}
+
+.savour{
+  width: 400px;
+  height: 400px;
+  margin-left: 760px;
+  margin-top: -460px;
+  /* border: 1px solid black; */
+}
+
+.now-open{
+  width: 100%;
+  height: 430px;
+  margin-top: 70px;
+  border: 1px solid black;
+  background-attachment: fixed;
+  background-image: url(mountainlake02.jpg);
+  background-size: 100%;
+  filter: brightness(40%);
+}
+
+.brush1{
+ position: absolute;
+ margin-top: -450px;
+}
+
+.brush2{
+  margin-top: -40px;
+}
+
+.mountainlake02{
+  height: 500px;
+  width: 100%;
+  margin-top: 0;
+  /* transform: translateY(20deg); */
+  /* background-attachment: fixed; */
+}
+
+#brush{
+ width: 1490px;
+ 
+}
+
+#brush2{
+  position: absolute;
+  /* margin-top: 260px; */
+  width: 1490px;
+}
+
+.heading{
+   border: 1px solid black;
+}
+
+/* #heading{
+  color: #f94545;
+  font-family: "Oswald", sans-serif;
+  margin-top: 80px;
+  margin-left: 500px;
+  font-size: 28px;
+} */
+
+.del-forno{
+  border: 1px solid green;
+  width: 100%;
+  height:530px ;
+  margin-top: 120px;
+}
+
+h4{
+  color: #616161;
+  font-size: 18px;
+  padding-left: 700px;
+}
+
+#delforno{
+  padding-top: 30px;
+  padding-left: 610px;
+}
+
+.our{
+  border: 1px solid black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+
+.menu{
+  width: 350px;
+  height: 380px;
+  border:1px solid red;
+  margin-left: 200px; 
+}
+
+.stores{
+  width: 350px;
+  height: 380px;
+  border:1px solid red; 
+  margin-left: 30px;
+}
+
+.family{
+  width: 350px;
+  height: 380px;
+  border:1px solid red;
+  margin-left: 30px;
 }
 
 .footer-div{
@@ -40,3 +231,5 @@ git
   margin-left: 200px;
   border: 1px solid white;
 }
+
+
