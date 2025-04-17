@@ -10,22 +10,28 @@ body{
   font-family: "Oswald", sans-serif;
 }
 
-.navbar-div{
-  width: 100%;
-  height: 65px;
-  border: 1px solid red;
-}
 
 .banner-div{
   width: 100%;
-  height: 100vh;
+  height: 850px;
   margin-top: -65px;
   border: 1px solid blue;
 }
 
+.navbar-div{
+  width: 100%;
+  height: 65px;
+  border: 1px solid red;
+  position: absolute;
+}
+.pastas{
+  width: 1490px;
+  height: 800px;
+}
+
 .body-div{
   width: 100%;
-  height: 1600px;
+  height: 1700px;
   border: 1px solid yellow;
 }
 
@@ -33,7 +39,7 @@ body{
   width: 200px;
   height: 40px;
   display: flex;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   font-family: "Oswald", sans-serif;
   color: #616161;
   font-size: 15px;
@@ -43,10 +49,12 @@ body{
 }
 
 .pizza{
-  width: 50px;
+  width: 150px;
   height:30px ;
   /* border: 1px solid yellow; */
   margin-left: 5px;
+  color: #616161;
+  margin-top: -5px;
 }
 .vl {
   border-left: 3px solid #616161;
@@ -191,34 +199,96 @@ h4{
   padding-left: 610px;
 }
 
+#dots{
+  margin-left: 520px;
+}
+
+
 .our{
   border: 1px solid black;
   width: 100%;
   height: 400px;
   display: flex;
+  margin-top: 20px;
 }
 
 .menu{
   width: 350px;
   height: 380px;
-  border:1px solid red;
-  margin-left: 200px; 
+  margin-left: 400px; 
 }
 
 .stores{
   width: 350px;
   height: 380px;
-  border:1px solid red; 
-  margin-left: 30px;
+  margin-left: 200px;
 }
 
 .family{
   width: 350px;
   height: 380px;
-  border:1px solid red;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 
+#milk{
+  width: 350px;
+  height: 340px;
+  margin-left: 125px;
+  filter: brightness(70%);
+
+}
+
+#guest{
+  width: 350px;
+  height: 340px;
+  margin-left: 50px;
+  filter: brightness(70%);
+
+}
+
+#pitza{
+  width: 350px;
+  height: 340px;
+  margin-left: -20px;
+  filter: brightness(70%);
+
+}
+
+.menues{
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.menu{
+  /* border: 1px solid black; */
+  width: 150px;
+  height: 150px;
+  margin-left: 70px;
+  font-size: 14px;
+  text-align: center;
+}
+
+h3{
+  color: #ffffff;
+  margin-top: 120px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.milks{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  color: #ffffff;
+  font-family: Roboto , serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+ margin-top: 200px;
+ position: absolute;
+}
 .footer-div{
   width: 100%;
   height: 485px;
@@ -230,6 +300,29 @@ h4{
   margin-top: 80px;
   margin-left: 200px;
   border: 1px solid white;
+  width: 100px;
+  height: 60px;
 }
 
+.footer{
+  width: 100%;
+  height: 170px;
+  border: 1px solid wheat;
+  display: flex;
+}
 
+h6{
+  margin-left: 800px;
+  margin-top: 90px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.line-dot{
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 6px;
+  letter-spacing: 2px;
+  margin-left: 200px ;
+}
